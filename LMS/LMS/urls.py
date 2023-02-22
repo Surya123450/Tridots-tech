@@ -20,4 +20,5 @@ from LMSapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.display),
+    path('check/', views.check),
 ]

@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-<title>Philosophy</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% load static %}
+<link rel="icon" type="image/icon type" href="{%static 'images/logo.jpg'%}" >
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %} ">
+    <style>
+        body {
+          background-image: url({%static 'images/bg1.jfif' %});
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
 </head>
-<body class="w3-content">
-
-<div class="w3-container">
-<h1>Philosopy</h1>
-<p>Table of Contents</p>
-
-<p><a href="index.html">index</a></p>
-
-<p>2. Epistemology</p>
-
-<p>3. Logics</p>
-
-<p>4. Ethics</p>
-
-<p>5. Aesthetics</p>
+<body>
+{%form as_p%}
+<div style="padding:0 16px;">
+  <h2>பாரதி அறிவுடைமை பொது நூலகம்</h2>
+  
 </div>
 
 </body>
